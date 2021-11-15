@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>account</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <form>
+            <h1>Create account</h1>
+        <p><input type="text"  placeholder="First name"  pattern="[A-Za-z]{1,15}" title="should be letters and limit upto 15 digits" required></p>
+        <p><input type="text"  placeholder="Surname"  pattern="[A-Za-z]{1,15}" title="it should be letters and limit upto 15 digits"></p>
+        <p><input type="password"  placeholder="password" pattern=".{10,}" title="10 or more than 10 digits  "required></p>
+        <p><input type="password"  placeholder="Confirm password" pattern=".{10,}" title="10 or more than 10 digits "required></p>
+        <p><input type="text"  placeholder="Enter email" pattern=".+@.+\..+" title="use of @ and.com or .in is required" required></p>
+       
+        <h2>Gender</h2>
+        <p><input type="radio" name="male" >male
+            <input type="radio" name="male">female    
+        </p>
+        <label  for="date"><h2>Date of birth</h2></label>
+        <p><input type="date" name="date" >required ></p>
+        <p><input  type="text" placeholder="Mobile no" title="Should be in numbers"required maxlength="10"></p>
+        <a href="web.html">Click here for audio and video download</a>
+        <button type="submit">Submit</button>
+    </form>
+    </body>
+</html>
